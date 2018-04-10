@@ -1,0 +1,62 @@
+#tableContainer
+{
+	width: 500px;
+	height: 300px;
+	overflow: auto;
+}
+#table_books th
+{
+	border: 1px solid black;
+	text-align: center;
+	background-color: dodgerblue;
+	color: white;
+	padding: 10px;
+}
+#table_books tr td
+{
+	border: 1px solid black;
+	padding: 10px;
+}
+
+#table_books tr
+{
+	background-color:rgb(255, 255, 255);
+}
+
+#table_books tr:nth-child(odd) {
+	background-color: #dddddd; 
+}
+
+#btn-co
+{
+	margin-left: 63.8%;
+}
+
+/*** RESPONSIVE ***/
+
+@media screen and (max-width:1200px) {
+	#tableContainer {
+		width: 410px;
+		overflow: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#kojima {
+		padding-top: 10px;
+
+	}
+	.responsive{
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		align-content: center;
+		align-items: center;
+	}
+	#btn-co
+	{
+		margin-left: 70%;
+	}
+}
+
+/* @media screen and (max-width:) */
